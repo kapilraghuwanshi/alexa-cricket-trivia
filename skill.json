@@ -1,0 +1,55 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-IN": {
+          "summary": "Learn fun interesting mind blowing facts about Cricket.",
+          "examplePhrases": [
+            "Alexa Cricket Trivia",
+            "Alexa open Cricket Trivia",
+            "Alexa play Cricket Trivia"
+          ],
+          "keywords": [
+            "cricket",
+            "facts",
+            "trivia",
+            "knowledge",
+            "bytes",
+            "information"
+          ],
+          "name": "Cricket Trivia",
+          "description": "Ask for Cricket Facts, and enjoy some unknown facts.\n\nMind Boggling Cricket Facts That\u0027ll Make You Go Woah!\n\nTo start, just say \"Alexa, play Cricket Trivia\" or \"Alexa, open Cricket Trivia\" to get a fact\".\n\nAt anytime, you can stop by saying \"Alexa, stop\"",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "updatesDescription": "Learn some unknown and mind blowing trivia about Cricket.",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Nothing special instructions",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:836341839235:function:cd7e7043-f046-4e43-bef7-4d218ab9269e:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-IN": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
