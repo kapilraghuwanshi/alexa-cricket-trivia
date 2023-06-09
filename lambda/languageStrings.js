@@ -9,13 +9,13 @@ module.exports = {
     en: {
         translation: {
             SKILL_NAME: 'Cricket Trivia developed by Kapil',
-            GET_FACT_MESSAGE: 'Here\'s your interesting cricket trivia curated by Kapil: ',
+            GET_FACT_MESSAGE: 'Here\'s your interesting cricket trivia curated by Kapil Raghuwanshi: ',
             HELP_MESSAGE: 'You can say tell me a Cricket Trivia, or, you can say exit... What can I help you with?',
             HELP_REPROMPT: 'What can I help you with?',
             FALLBACK_MESSAGE: 'The Cricket Trivia Facts skill can\'t help you with that.  It can help you discover facts about Crciket if you say tell me a Cricket Trivia. What can I help you with?',
             FALLBACK_REPROMPT: 'What can I help you with?',
-            ERROR_MESSAGE: 'Sorry, an error occurred.',
-            STOP_MESSAGE: 'Goodbye!',
+            ERROR_MESSAGE: 'Sorry, an error occurred. Please start again later',
+            STOP_MESSAGE: 'TaTa!',
             FACTS:
             [
                 'Sunil Gavaskar was out of the first ball of a Test match thrice in his career.',
@@ -38,6 +38,19 @@ module.exports = {
                 'Dinesh Karthik is the first Indian to win a MoM award in a T20I match.',
                 'Kapil Dev was the first Indian to score a century for India in ODI.',
                 'We all know that Anil Kumble has taken 10 wickets in an inning in test cricket. But the only other bowler to take 10 wickets in a single inning was Jim Laker, who did it years before Kumble.',
+                'Shoaib Akhtar bowled the fastest delivery in the history of cricket, 161.3 km/h hmmm!',
+                'MS Dhoni has never scored an ODI century outside of Asia',
+                'Cricket began as a childrens game in England in the 16th century',
+                'The longest recorded cricket match was played between England and South Africa in Durban. It is also used for the timeless test. It lasted nearly 90 days and saw over 683 overs bowled.',
+                'Can you believe that cricket is not an Olympic sport yet?',
+                'Chris Gayle is the only batsman in Test history to hit a six off the first ball of a game.',
+                'Iftikhar Ali Khan Pataudi is the only cricketer to have played Test cricket for both India and England.',
+                'Cricket is the second most popular sport in the world',
+                'Cricket wickets originally only had two stumps',
+                'Sachin Tendulkar debuted at only 16 years old',
+                'Bapu Nadkarni managed to nab himself an excellent little record on this front, scoring 21 consecutive maiden overs while playing for India in 1964.',
+                'The length of the pitch is the only unchanged cricketing law',
+                'In a single match, Laker dismissed a staggering 19 Australian cricketers, and to date, remains the only person ever to do so throughout the sport’s illustrious history.'
             ],
         }
     }
