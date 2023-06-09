@@ -7,7 +7,21 @@
           "examplePhrases": [
             "Alexa Cricket Trivia",
             "Alexa open Cricket Trivia",
-            "Alexa play Cricket Trivia"
+            "Alexa play Cricket Trivia",
+            "Alexa share some cricket fact",
+            "Alexa tell me a fact",
+            "Alexa tell me a cricket fact",
+            "Alexa give me a cricket fact",
+            "Alexa tell me trivia",
+            "Alexa tell me a cricket trivia",
+            "Alexa give me trivia",
+            "Alexa give me a cricket trivia",
+            "Alexa give me some information about cricket",
+            "Alexa give me some cricket information",
+            "Alexa tell me something about cricket",
+            "Alexa give me something about cricket",
+            "Alexa a fact",
+            "Alexa a cricket fact"
           ],
           "keywords": [
             "cricket",
@@ -15,7 +29,9 @@
             "trivia",
             "knowledge",
             "bytes",
-            "information"
+            "information",
+            "daily cricket",
+            "new cricket facts"
           ],
           "name": "Cricket Trivia",
           "description": "Ask for Cricket Facts, and enjoy some unknown facts.\n\nMind Boggling Cricket Facts That\u0027ll Make You Go Woah!\n\nTo start, just say \"Alexa, play Cricket Trivia\" or \"Alexa, open Cricket Trivia\" to get a fact\".\n\nAt anytime, you can stop by saying \"Alexa, stop\"",

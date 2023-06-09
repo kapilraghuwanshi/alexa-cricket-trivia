@@ -24,8 +24,6 @@
           "slots": [],
           "samples": [
             "share some cricket fact",
-            "a fact",
-            "a cricket fact",
             "tell me a fact",
             "tell me a cricket fact",
             "give me a cricket fact",
@@ -35,8 +33,10 @@
             "give me a cricket trivia",
             "give me some information about cricket",
             "give me some cricket information",
-            "tell me something",
-            "give me something"
+            "tell me something about cricket",
+            "give me something about cricket",
+            "a fact",
+            "a cricket fact"
           ]
         },
         {
