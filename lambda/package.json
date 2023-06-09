@@ -1,6 +1,6 @@
 {
   "name": "cricket-trivia",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An alexa skill to share some cricket trivia or fact ot information",
   "main": "index.js",
   "scripts": {
