@@ -9,8 +9,8 @@
   "author": "Kapil Raghuwanshi",
   "license": "ISC",
   "dependencies": {
-    "ask-sdk-core": "^2.0.0",
-    "ask-sdk-model": "^1.0.0",
-    "i18next": "^15.0.5"
+    "ask-sdk-core": "^2.14.0",
+    "ask-sdk-model": "^1.72.0",
+    "i18next": "^22.5.1"
   }
 }
