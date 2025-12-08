@@ -4,13 +4,19 @@
   "description": "An alexa skill to share some cricket trivia or fact ot information",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "zip -r ../cricket-trivia-lambda.zip ."
   },
   "author": "Kapil Raghuwanshi",
   "license": "ISC",
   "dependencies": {
     "ask-sdk-core": "^2.14.0",
-    "ask-sdk-model": "^1.72.0",
     "i18next": "^22.5.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.135.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
