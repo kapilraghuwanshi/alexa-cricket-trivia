@@ -117,24 +117,26 @@ async function runTest(testName, request) {
   }
   console.log('   Locale: en-IN\n');
 
-  return new Promise((resolve) => {
-    handler(request, mockContext, (err, response) => {
-      if (err) {
-        console.error('   ❌ Error:', err.message);
-        resolve(false);
-      } else {
-        const speak = response.response.outputSpeech?.ssml || response.response.outputSpeech?.text;
-        console.log('   ✅ Response:');
-        console.log(`      "${speak}"`);
-        if (response.response.card) {
-          console.log(`      Card Title: ${response.response.card.title}`);
-          console.log(`      Card Content: ${response.response.card.content?.substring(0, 50)}...`);
-        }
-        console.log('');
-        resolve(true);
-      }
-    });
-  });
+  try {
+    const response = await handler(request, mockContext);
+    const speak = response?.response?.outputSpeech?.ssml || response?.response?.outputSpeech?.text;
+    if (speak) {
+      console.log('   ✅ Response:');
+      console.log(`      "${speak}"`);
+    } else {
+      console.log('   ✅ Response (full object):');
+      console.log(JSON.stringify(response, null, 2));
+    }
+    if (response?.response?.card) {
+      console.log(`      Card Title: ${response.response.card.title}`);
+      console.log(`      Card Content: ${response.response.card.content?.substring(0, 50)}...`);
+    }
+    console.log('');
+    return true;
+  } catch (err) {
+    console.error('   ❌ Error:', err && err.message ? err.message : err);
+    return false;
+  }
 }
 
 async function runAllTests() {

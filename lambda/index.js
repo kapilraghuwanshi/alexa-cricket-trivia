@@ -159,6 +159,15 @@ const skill = skillBuilder
   .withCustomUserAgent('sample/basic-fact/v2')
   .lambda();
 
-exports.handler = async (event, context) => {
-  return await skill(event, context);
+exports.handler = (event, context) => {
+  return new Promise((resolve, reject) => {
+    try {
+      skill(event, context, (err, result) => {
+        if (err) return reject(err);
+        return resolve(result);
+      });
+    } catch (err) {
+      return reject(err);
+    }
+  });
 };
