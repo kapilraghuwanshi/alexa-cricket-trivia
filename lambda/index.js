@@ -145,7 +145,8 @@ const LocalizationInterceptor = {
 
 const skillBuilder = Alexa.SkillBuilders.custom();
 
-exports.handler = skillBuilder
+
+const skill = skillBuilder
   .addRequestHandlers(
     GetNewFactHandler,
     HelpHandler,
@@ -157,3 +158,7 @@ exports.handler = skillBuilder
   .addErrorHandlers(ErrorHandler)
   .withCustomUserAgent('sample/basic-fact/v2')
   .lambda();
+
+exports.handler = async (event, context) => {
+  return await skill(event, context);
+};

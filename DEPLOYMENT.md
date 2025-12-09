@@ -116,7 +116,7 @@ Example updated section:
 "apis": {
   "custom": {
     "endpoint": {
-      "uri": "arn:aws:lambda:us-east-1:836341839235:function:cricket-trivia-skill"
+      "uri": "arn:aws:lambda:us-east-1:<account>:function:cricket-trivia-skill"
     },
     "interfaces": []
   }
