@@ -9,7 +9,7 @@ module.exports = {
     en: {
         translation: {
             SKILL_NAME: 'Cricket Trivia developed by Tech Monk Kapil',
-            GET_FACT_MESSAGE: 'Here\'s your interesting cricket trivia curated by Tech Monk Kapil',
+            GET_FACT_MESSAGE: 'Here\'s your interesting cricket trivia curated by Tech Monk Kapil..',
             HELP_MESSAGE: 'You can say tell me a Cricket Trivia, or, you can say exit... What can I help you with?',
             HELP_REPROMPT: 'What can I help you with?',
             FALLBACK_MESSAGE: 'The Cricket Trivia Facts skill can\'t help you with that. It can help you discover facts about Cricket if you say tell me a Cricket Trivia. What can I help you with?',
