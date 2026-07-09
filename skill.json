@@ -23,7 +23,12 @@
             "Alexa a fact",
             "Alexa a cricket fact",
             "Alexa play Cricket Trivia by Kapil",
-            "Alexa Kapil's Cricket Trivia"
+            "Alexa play Cricket facts by Tech Monk Kapil",
+            "Alexa Kapil's Cricket Trivia",
+            "Alexa play some interesting cricket facts",
+            "Alexa tell me some unknown cricket facts",
+            "Alexa tell me some amazing cricket facts",
+            "Alexa tell me some cool cricket facts"
           ],
           "keywords": [
             "cricket",
@@ -31,6 +36,10 @@
             "trivia",
             "knowledge",
             "bytes",
+            "cricket facts",
+            "cricket trivia",
+            "interesting cricket facts",
+            "fun cricket facts",
             "information",
             "daily cricket",
             "new cricket facts",
@@ -41,7 +50,8 @@
             "cricket updates",
             "cricket news",
             "games and trivia",
-            "cricket tidbits"
+            "cricket tidbits",
+            "tech monk kapil"
           ],
           "name": "Cricket Trivia",
           "description": "Ask for Cricket Facts, and enjoy some unknown facts.\n\nMind Boggling Cricket Facts That\u0027ll Make You Go Woah!\n\nTo start, just say \"Alexa, play Cricket Trivia\" or \"Alexa, open Cricket Trivia\" to get a fact\".\n\nAt anytime, you can stop by saying \"Alexa, stop\"",
@@ -61,7 +71,7 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "uri": "arn:aws:lambda:us-east-1:836341839235:function:cd7e7043-f046-4e43-bef7-4d218ab9269e:Release_0"
+          "uri": "arn:aws:lambda:us-east-1:248189941961:function:alexa-cricket-trivia"
         },
         "interfaces": []
       }

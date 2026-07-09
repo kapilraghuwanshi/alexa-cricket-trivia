@@ -291,6 +291,14 @@ ISC License — See [`LICENSE`](./LICENSE) file
 
 ---
 
+## ⚡ Revamp Summary (Crisp)
+
+- **What changed:** Modernized localization, targeted Node.js 18+, removed unused deps, added build script, added local test harness, and expanded facts to 60+.
+- **Content:** Fixed typos, removed duplicates, corrected factual errors, and added 30+ new modern facts (men's & women's cricket).
+- **Developer tools:** `lambda/invoke.js` for local testing; `npm run build` creates `cricket-trivia-lambda.zip` for Lambda.
+- **Docs:** `DEPLOYMENT.md` contains step-by-step deployment and submission instructions for AWS and Alexa Store.
+- **Ready for deployment:** Build → Upload Lambda zip → Update `skill.json` ARN → Test on device → Submit for certification.
+
 ## 📌 Version History
 
 | Version | Date | Changes |
@@ -305,13 +313,3 @@ ISC License — See [`LICENSE`](./LICENSE) file
 **Next Update:** TBD (community contributions welcome!)
 
 ---
-
-## ⚡ Revamp Summary (Crisp)
-
-- **What changed:** Modernized localization, targeted Node.js 18+, removed unused deps, added build script, added local test harness, and expanded facts to 60+.
-- **Content:** Fixed typos, removed duplicates, corrected factual errors, and added 30+ new modern facts (men's & women's cricket).
-- **Developer tools:** `lambda/invoke.js` for local testing; `npm run build` creates `cricket-trivia-lambda.zip` for Lambda.
-- **Docs:** `DEPLOYMENT.md` contains step-by-step deployment and submission instructions for AWS and Alexa Store.
-- **Ready for deployment:** Build → Upload Lambda zip → Update `skill.json` ARN → Test on device → Submit for certification.
-
-If you want, I can commit these changes and push a release branch, deploy the Lambda zip for you (you'll need to provide AWS access), or update `skill.json` with a new ARN after you deploy. Which would you like next?
